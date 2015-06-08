@@ -1,8 +1,8 @@
 package com.touchboarder.example.videostream;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
@@ -12,7 +12,7 @@ import android.widget.EditText;
  * @author hsigmond touchboarder.com
  * 
  */
-public class AddVideoStreamActivity extends Activity {
+public class AddVideoStreamActivity extends AppCompatActivity {
 	private String path = "";
 	private EditText editText;
 
